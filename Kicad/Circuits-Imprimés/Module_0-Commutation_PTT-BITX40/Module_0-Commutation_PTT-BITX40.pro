@@ -1,4 +1,4 @@
-update=10/02/2018 18:32:51
+update=10/02/2018 22:14:56
 version=1
 last_client=kicad
 [pcbnew]
@@ -25,16 +25,6 @@ version=1
 NetIExt=net
 [general]
 version=1
-[schematic_editor]
-version=1
-PageLayoutDescrFile=
-PlotDirectoryName=C:/Users/PORTABLE/Documents/GitProjets/Fablab19-Alex/Projet-BITX/Kicad/Circuits-Imprimés/Module_0-Commutation_PTT-BITX40/Tracés/
-SubpartIdSeparator=0
-SubpartFirstId=65
-NetFmtName=Pcbnew
-SpiceForceRefPrefix=0
-SpiceUseNetNumbers=0
-LabSize=60
 [eeschema]
 version=1
 LibDir=
@@ -74,3 +64,13 @@ LibName32=valves
 LibName33=C:/Users/PORTABLE/Documents/GitProjets/Fablab19-Alex-BITX40-Projet/Kicad/Libraries/HF
 LibName34=C:/Users/PORTABLE/Documents/GitProjets/Fablab19-Alex-BITX40-Projet/Kicad/Libraries/Relais
 LibName35=C:/Users/PORTABLE/Documents/GitProjets/Fablab19-Alex-BITX40-Projet/Kicad/Libraries/Transistors-Bipolaires
+[schematic_editor]
+version=1
+PageLayoutDescrFile=
+PlotDirectoryName=C:/Users/PORTABLE/Documents/GitProjets/Fablab19-Alex-BITX40-Projet/Kicad/Circuits-Imprimés/Module_0-Commutation_PTT-BITX40/Tracés/
+SubpartIdSeparator=0
+SubpartFirstId=65
+NetFmtName=Pcbnew
+SpiceForceRefPrefix=0
+SpiceUseNetNumbers=0
+LabSize=60
