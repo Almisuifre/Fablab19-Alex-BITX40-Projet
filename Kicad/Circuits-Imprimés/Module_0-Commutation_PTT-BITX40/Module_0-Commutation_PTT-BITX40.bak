@@ -193,11 +193,11 @@ F 3 "" H 1400 6450 50  0001 C CNN
 $EndComp
 Text GLabel 1950 6250 2    60   Input ~ 0
 12V
-Text GLabel 7450 2000 2    60   Input ~ 0
+Text GLabel 7450 2400 2    60   Input ~ 0
 12V
-Text GLabel 6400 1900 0    60   Input ~ 0
+Text GLabel 6400 2300 0    60   Input ~ 0
 TX
-Text GLabel 6400 2100 0    60   Input ~ 0
+Text GLabel 6400 2500 0    60   Input ~ 0
 RX
 Text GLabel 6350 2800 0    60   Input ~ 0
 12V
@@ -651,12 +651,6 @@ LedTX
 Wire Wire Line
 	1750 2000 2650 2000
 Wire Wire Line
-	3250 2100 4600 2100
-Wire Wire Line
-	4600 2100 4600 2500
-Wire Wire Line
-	4600 2500 6600 2500
-Wire Wire Line
 	3250 1900 3400 1900
 Wire Wire Line
 	3400 1900 3400 1100
@@ -664,12 +658,6 @@ Wire Wire Line
 	3400 1100 3600 1100
 Wire Wire Line
 	5900 1100 6000 1100
-Wire Wire Line
-	6000 1100 6000 2300
-Wire Wire Line
-	6000 2300 6600 2300
-Wire Wire Line
-	7200 2400 8900 2400
 Wire Wire Line
 	9050 2600 9050 2750
 Wire Wire Line
@@ -714,12 +702,6 @@ Wire Wire Line
 	1200 6350 1400 6350
 Wire Wire Line
 	1400 6350 1400 6450
-Wire Wire Line
-	7200 2000 7450 2000
-Wire Wire Line
-	6600 1900 6400 1900
-Wire Wire Line
-	6600 2100 6400 2100
 Wire Wire Line
 	3250 2800 3500 2800
 Wire Wire Line
@@ -985,4 +967,22 @@ Connection ~ 7350 3700
 Wire Wire Line
 	7050 4050 7350 4050
 Connection ~ 7350 4050
+Wire Wire Line
+	3250 2100 6600 2100
+Wire Wire Line
+	6000 1100 6000 1900
+Wire Wire Line
+	6000 1900 6600 1900
+Wire Wire Line
+	6400 2300 6600 2300
+Wire Wire Line
+	6400 2500 6600 2500
+Wire Wire Line
+	7200 2400 7450 2400
+Wire Wire Line
+	7200 2000 8450 2000
+Wire Wire Line
+	8450 2000 8450 2400
+Wire Wire Line
+	8450 2400 8900 2400
 $EndSCHEMATC

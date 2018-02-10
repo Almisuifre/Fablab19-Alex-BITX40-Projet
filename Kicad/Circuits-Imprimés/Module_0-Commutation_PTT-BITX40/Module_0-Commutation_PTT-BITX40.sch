@@ -74,15 +74,15 @@ $EndComp
 $Comp
 L Conn_Coaxial J3
 U 1 1 5A7E0CD8
-P 1600 2000
-F 0 "J3" H 1610 2120 50  0000 C CNN
-F 1 "Conn_Coaxial" V 1715 2000 50  0000 C CNN
-F 2 "Connectors:bornier2" H 1600 2000 50  0001 C CNN
-F 3 "" H 1600 2000 50  0001 C CNN
-	1    1600 2000
+P 1850 2400
+F 0 "J3" H 1860 2520 50  0000 C CNN
+F 1 "Conn_Coaxial" V 1965 2400 50  0000 C CNN
+F 2 "Connectors:bornier2" H 1850 2400 50  0001 C CNN
+F 3 "" H 1850 2400 50  0001 C CNN
+	1    1850 2400
 	-1   0    0    -1  
 $EndComp
-Text Notes 1250 1650 0    60   ~ 0
+Text Notes 1500 2050 0    60   ~ 0
 Vers l'antenne
 $Comp
 L Conn_Coaxial J7
@@ -159,12 +159,12 @@ $EndComp
 $Comp
 L GND #PWR04
 U 1 1 5A7E10DE
-P 1600 2350
-F 0 "#PWR04" H 1600 2100 50  0001 C CNN
-F 1 "GND" H 1600 2200 50  0000 C CNN
-F 2 "" H 1600 2350 50  0001 C CNN
-F 3 "" H 1600 2350 50  0001 C CNN
-	1    1600 2350
+P 1850 2750
+F 0 "#PWR04" H 1850 2500 50  0001 C CNN
+F 1 "GND" H 1850 2600 50  0000 C CNN
+F 2 "" H 1850 2750 50  0001 C CNN
+F 3 "" H 1850 2750 50  0001 C CNN
+	1    1850 2750
 	1    0    0    -1  
 $EndComp
 $Comp
@@ -649,12 +649,6 @@ LedTX
 Text GLabel 7250 1000 2    60   Input ~ 0
 LedTX
 Wire Wire Line
-	1750 2000 2650 2000
-Wire Wire Line
-	3250 1900 3400 1900
-Wire Wire Line
-	3400 1900 3400 1100
-Wire Wire Line
 	3400 1100 3600 1100
 Wire Wire Line
 	5900 1100 6000 1100
@@ -665,15 +659,15 @@ Wire Wire Line
 Wire Wire Line
 	3750 1300 3750 1450
 Wire Wire Line
-	1600 2200 1600 2350
+	1850 2600 1850 2750
 Wire Notes Line
-	1200 1500 1950 1500
+	1450 1900 2200 1900
 Wire Notes Line
-	1950 1500 1950 2600
+	2200 1900 2200 3000
 Wire Notes Line
-	1950 2600 1200 2600
+	2200 3000 1450 3000
 Wire Notes Line
-	1200 2600 1200 1500
+	1450 3000 1450 1900
 Wire Notes Line
 	3350 550  3350 1650
 Wire Notes Line
@@ -968,8 +962,6 @@ Wire Wire Line
 	7050 4050 7350 4050
 Connection ~ 7350 4050
 Wire Wire Line
-	3250 2100 6600 2100
-Wire Wire Line
 	6000 1100 6000 1900
 Wire Wire Line
 	6000 1900 6600 1900
@@ -985,4 +977,16 @@ Wire Wire Line
 	8450 2000 8450 2400
 Wire Wire Line
 	8450 2400 8900 2400
+Wire Wire Line
+	2000 2400 2650 2400
+Wire Wire Line
+	3400 1100 3400 2300
+Wire Wire Line
+	3400 2300 3250 2300
+Wire Wire Line
+	3250 2500 5350 2500
+Wire Wire Line
+	5350 2500 5350 2100
+Wire Wire Line
+	5350 2100 6600 2100
 $EndSCHEMATC
