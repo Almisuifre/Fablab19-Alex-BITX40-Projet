@@ -77,7 +77,7 @@ U 1 1 5A7E0CD8
 P 1850 2400
 F 0 "J3" H 1860 2520 50  0000 C CNN
 F 1 "Conn_Coaxial" V 1965 2400 50  0000 C CNN
-F 2 "Connectors:bornier2" H 1850 2400 50  0001 C CNN
+F 2 "Raccordement-Filaires:Connect-2pin" H 1850 2400 50  0001 C CNN
 F 3 "" H 1850 2400 50  0001 C CNN
 	1    1850 2400
 	-1   0    0    -1  
@@ -90,7 +90,7 @@ U 1 1 5A7E0D82
 P 3750 1100
 F 0 "J7" H 3760 1220 50  0000 C CNN
 F 1 "Conn_Coaxial" V 3865 1100 50  0000 C CNN
-F 2 "Connectors:bornier2" H 3750 1100 50  0001 C CNN
+F 2 "Raccordement-Filaires:Connect-2pin" H 3750 1100 50  0001 C CNN
 F 3 "" H 3750 1100 50  0001 C CNN
 	1    3750 1100
 	1    0    0    -1  
@@ -101,7 +101,7 @@ U 1 1 5A7E0DC4
 P 5750 1100
 F 0 "J11" H 5760 1220 50  0000 C CNN
 F 1 "Conn_Coaxial" V 5865 1100 50  0000 C CNN
-F 2 "Connectors:bornier2" H 5750 1100 50  0001 C CNN
+F 2 "Raccordement-Filaires:Connect-2pin" H 5750 1100 50  0001 C CNN
 F 3 "" H 5750 1100 50  0001 C CNN
 	1    5750 1100
 	-1   0    0    -1  
@@ -116,7 +116,7 @@ U 1 1 5A7E0EB4
 P 9050 2400
 F 0 "J12" H 9060 2520 50  0000 C CNN
 F 1 "Conn_Coaxial" V 9165 2400 50  0000 C CNN
-F 2 "Connectors:bornier2" H 9050 2400 50  0001 C CNN
+F 2 "Raccordement-Filaires:Connect-2pin" H 9050 2400 50  0001 C CNN
 F 3 "" H 9050 2400 50  0001 C CNN
 	1    9050 2400
 	1    0    0    -1  
@@ -173,7 +173,7 @@ U 1 1 5A7E13CE
 P 1000 6250
 F 0 "J2" H 1000 6350 50  0000 C CNN
 F 1 "Conn_01x02" H 1000 6050 50  0000 C CNN
-F 2 "Connectors:bornier2" H 1000 6250 50  0001 C CNN
+F 2 "Raccordement-Filaires:Connect-2pin" H 1000 6250 50  0001 C CNN
 F 3 "" H 1000 6250 50  0001 C CNN
 	1    1000 6250
 	-1   0    0    -1  
@@ -332,7 +332,7 @@ U 1 1 5A7E3251
 P 1000 5350
 F 0 "J1" H 1000 5450 50  0000 C CNN
 F 1 "Conn_01x02" H 1000 5150 50  0000 C CNN
-F 2 "Connectors:bornier2" H 1000 5350 50  0001 C CNN
+F 2 "Raccordement-Filaires:Connect-2pin" H 1000 5350 50  0001 C CNN
 F 3 "" H 1000 5350 50  0001 C CNN
 	1    1000 5350
 	-1   0    0    -1  
@@ -358,7 +358,7 @@ U 1 1 5A7E458E
 P 3350 5400
 F 0 "J4" H 3350 5600 50  0000 C CNN
 F 1 "Conn_01x03" H 3350 5200 50  0000 C CNN
-F 2 "Connectors:bornier3" H 3350 5400 50  0001 C CNN
+F 2 "Raccordement-Filaires:Connect-3pin" H 3350 5400 50  0001 C CNN
 F 3 "" H 3350 5400 50  0001 C CNN
 	1    3350 5400
 	1    0    0    -1  
@@ -386,7 +386,7 @@ U 1 1 5A7E4F9E
 P 3350 6250
 F 0 "J5" H 3350 6450 50  0000 C CNN
 F 1 "Conn_01x03" H 3350 6050 50  0000 C CNN
-F 2 "Connectors:bornier3" H 3350 6250 50  0001 C CNN
+F 2 "Raccordement-Filaires:Connect-3pin" H 3350 6250 50  0001 C CNN
 F 3 "" H 3350 6250 50  0001 C CNN
 	1    3350 6250
 	1    0    0    -1  
@@ -414,7 +414,7 @@ U 1 1 5A7E54E2
 P 3350 7100
 F 0 "J6" H 3350 7300 50  0000 C CNN
 F 1 "Conn_01x03" H 3350 6900 50  0000 C CNN
-F 2 "Connectors:bornier3" H 3350 7100 50  0001 C CNN
+F 2 "Raccordement-Filaires:Connect-3pin" H 3350 7100 50  0001 C CNN
 F 3 "" H 3350 7100 50  0001 C CNN
 	1    3350 7100
 	1    0    0    -1  
@@ -442,7 +442,7 @@ U 1 1 5A7E6029
 P 9150 5200
 F 0 "J14" H 9150 5300 50  0000 C CNN
 F 1 "Conn_01x02" H 9150 5000 50  0000 C CNN
-F 2 "Connectors:bornier2" H 9150 5200 50  0001 C CNN
+F 2 "Raccordement-Filaires:Connect-2pin" H 9150 5200 50  0001 C CNN
 F 3 "" H 9150 5200 50  0001 C CNN
 	1    9150 5200
 	1    0    0    -1  
@@ -468,7 +468,7 @@ U 1 1 5A7E680E
 P 9150 5950
 F 0 "J15" H 9150 6050 50  0000 C CNN
 F 1 "Conn_01x02" H 9150 5750 50  0000 C CNN
-F 2 "Connectors:bornier2" H 9150 5950 50  0001 C CNN
+F 2 "Raccordement-Filaires:Connect-2pin" H 9150 5950 50  0001 C CNN
 F 3 "" H 9150 5950 50  0001 C CNN
 	1    9150 5950
 	1    0    0    -1  
@@ -494,7 +494,7 @@ U 1 1 5A7E6A59
 P 9150 4500
 F 0 "J13" H 9150 4600 50  0000 C CNN
 F 1 "Conn_01x02" H 9150 4300 50  0000 C CNN
-F 2 "Connectors:bornier2" H 9150 4500 50  0001 C CNN
+F 2 "Raccordement-Filaires:Connect-2pin" H 9150 4500 50  0001 C CNN
 F 3 "" H 9150 4500 50  0001 C CNN
 	1    9150 4500
 	1    0    0    -1  
@@ -520,7 +520,7 @@ U 1 1 5A7E6D06
 P 5400 7100
 F 0 "J8" H 5400 7300 50  0000 C CNN
 F 1 "Conn_01x03" H 5400 6900 50  0000 C CNN
-F 2 "Connectors:bornier3" H 5400 7100 50  0001 C CNN
+F 2 "Raccordement-Filaires:Connect-3pin" H 5400 7100 50  0001 C CNN
 F 3 "" H 5400 7100 50  0001 C CNN
 	1    5400 7100
 	1    0    0    -1  
@@ -548,7 +548,7 @@ U 1 1 5A7E7017
 P 5450 6000
 F 0 "J10" H 5450 6100 50  0000 C CNN
 F 1 "Conn_01x02" H 5450 5800 50  0000 C CNN
-F 2 "Connectors:bornier2" H 5450 6000 50  0001 C CNN
+F 2 "Raccordement-Filaires:Connect-2pin" H 5450 6000 50  0001 C CNN
 F 3 "" H 5450 6000 50  0001 C CNN
 	1    5450 6000
 	1    0    0    -1  
@@ -574,7 +574,7 @@ U 1 1 5A7E9BAE
 P 5450 5300
 F 0 "J9" H 5450 5400 50  0000 C CNN
 F 1 "Conn_01x02" H 5450 5100 50  0000 C CNN
-F 2 "Connectors:bornier2" H 5450 5300 50  0001 C CNN
+F 2 "Raccordement-Filaires:Connect-2pin" H 5450 5300 50  0001 C CNN
 F 3 "" H 5450 5300 50  0001 C CNN
 	1    5450 5300
 	1    0    0    -1  
@@ -626,7 +626,7 @@ U 1 1 5A7F0B6A
 P 9250 3800
 F 0 "J16" H 9250 4000 50  0000 C CNN
 F 1 "Conn_01x03" H 9250 3600 50  0000 C CNN
-F 2 "Connectors:bornier3" H 9250 3800 50  0001 C CNN
+F 2 "Raccordement-Filaires:Connect-3pin" H 9250 3800 50  0001 C CNN
 F 3 "" H 9250 3800 50  0001 C CNN
 	1    9250 3800
 	1    0    0    -1  
