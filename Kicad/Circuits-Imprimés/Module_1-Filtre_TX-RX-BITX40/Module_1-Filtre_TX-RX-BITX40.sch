@@ -34,6 +34,7 @@ LIBS:valves
 LIBS:HF
 LIBS:Relais
 LIBS:Transistors-Bipolaires
+LIBS:Module_1-Filtre_TX-RX-BITX40-cache
 EELAYER 25 0
 EELAYER END
 $Descr A4 11693 8268
@@ -284,18 +285,6 @@ Wire Wire Line
 	8300 3350 8300 3100
 Wire Wire Line
 	6550 3350 6550 3100
-Wire Notes Line
-	3000 1900 8600 1900
-Wire Notes Line
-	5100 1900 5100 3700
-Wire Notes Line
-	3000 3700 8600 3700
-Wire Notes Line
-	3000 3700 3000 1900
-Wire Notes Line
-	8600 3700 8600 1900
-Wire Notes Line
-	6400 3700 6400 1900
 Text Notes 3750 1800 0    60   ~ 0
 Cellule 1
 Text Notes 5400 1800 0    60   ~ 0
@@ -304,4 +293,16 @@ Text Notes 6850 1800 0    60   ~ 0
 Cellule 3
 Text Notes 5100 4600 0    60   ~ 0
 Filtre bi-directionnel TX/RX
+Wire Notes Line
+	5050 1850 5050 3650
+Wire Notes Line
+	3000 3650 8500 3650
+Wire Notes Line
+	3000 3650 3000 1850
+Wire Notes Line
+	3000 1850 8500 1850
+Wire Notes Line
+	6750 1850 6750 3650
+Wire Notes Line
+	8500 1850 8500 3650
 $EndSCHEMATC
