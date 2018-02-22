@@ -3,7 +3,7 @@
   (general
     (links 40)
     (no_connects 0)
-    (area 54.924999 69.924999 120.075001 155.075001)
+    (area 69.924999 69.924999 120.075001 155.075001)
     (thickness 1.6)
     (drawings 5)
     (tracks 46)
@@ -89,11 +89,11 @@
       (plotinvisibletext false)
       (padsonsilk false)
       (subtractmaskfromsilk false)
-      (outputformat 4)
+      (outputformat 1)
       (mirror false)
       (drillshape 0)
       (scaleselection 1)
-      (outputdirectory C:/Users/PORTABLE/Documents/GitProjets/Fablab19-Alex-BITX40-Projet/Kicad/Circuits-Imprimés/Module_2-1_2_3-Amplificateur-Bi-Directionnel-BITX40/Gerbers/))
+      (outputdirectory Gerbers/))
   )
 
   (net 0 "")
