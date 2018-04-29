@@ -1,0 +1,401 @@
+EESchema Schematic File Version 2
+LIBS:power
+LIBS:device
+LIBS:switches
+LIBS:relays
+LIBS:motors
+LIBS:transistors
+LIBS:conn
+LIBS:linear
+LIBS:regul
+LIBS:74xx
+LIBS:cmos4000
+LIBS:adc-dac
+LIBS:memory
+LIBS:xilinx
+LIBS:microcontrollers
+LIBS:dsp
+LIBS:microchip
+LIBS:analog_switches
+LIBS:motorola
+LIBS:texas
+LIBS:intel
+LIBS:audio
+LIBS:interface
+LIBS:digital-audio
+LIBS:philips
+LIBS:display
+LIBS:cypress
+LIBS:siliconi
+LIBS:opto
+LIBS:atmel
+LIBS:contrib
+LIBS:valves
+LIBS:alex-library
+EELAYER 25 0
+EELAYER END
+$Descr A4 11693 8268
+encoding utf-8
+Sheet 1 1
+Title ""
+Date ""
+Rev ""
+Comp ""
+Comment1 ""
+Comment2 ""
+Comment3 ""
+Comment4 ""
+$EndDescr
+$Comp
+L Self L1
+U 1 1 5ABD09EA
+P 4250 1750
+F 0 "L1" V 4350 1750 60  0000 C CNN
+F 1 "Self 6µH" V 4150 1750 60  0000 C CNN
+F 2 "alex-library:Self_T30-6" H 4250 1750 60  0001 C CNN
+F 3 "" H 4250 1750 60  0001 C CNN
+	1    4250 1750
+	0    1    1    0   
+$EndComp
+$Comp
+L C C1
+U 1 1 5ABD0B50
+P 3950 2050
+F 0 "C1" H 3975 2150 50  0000 L CNN
+F 1 "470pF" H 3975 1950 50  0000 L CNN
+F 2 "alex-library:C-P_5.08-L_7.5-H_6-P_2.5" H 3988 1900 50  0001 C CNN
+F 3 "" H 3950 2050 50  0001 C CNN
+	1    3950 2050
+	1    0    0    -1  
+$EndComp
+$Comp
+L C C3
+U 1 1 5ABD0B7C
+P 5100 2050
+F 0 "C3" H 5125 2150 50  0000 L CNN
+F 1 "1000pF" H 5125 1950 50  0000 L CNN
+F 2 "alex-library:C-P_5.08-L_7.5-H_6-P_2.5" H 5138 1900 50  0001 C CNN
+F 3 "" H 5100 2050 50  0001 C CNN
+	1    5100 2050
+	1    0    0    -1  
+$EndComp
+$Comp
+L C C2
+U 1 1 5ABD0C00
+P 4800 1750
+F 0 "C2" H 4825 1850 50  0000 L CNN
+F 1 "100pF" V 4950 1650 50  0000 L CNN
+F 2 "alex-library:C-P_5.08-L_7.5-H_6-P_2.5" H 4838 1600 50  0001 C CNN
+F 3 "" H 4800 1750 50  0001 C CNN
+	1    4800 1750
+	0    -1   -1   0   
+$EndComp
+$Comp
+L Self L2
+U 1 1 5ABD0CDF
+P 5450 1750
+F 0 "L2" V 5550 1750 60  0000 C CNN
+F 1 "Self 6µH" V 5350 1750 60  0000 C CNN
+F 2 "alex-library:Self_T30-6" H 5450 1750 60  0001 C CNN
+F 3 "" H 5450 1750 60  0001 C CNN
+	1    5450 1750
+	0    1    1    0   
+$EndComp
+$Comp
+L C C4
+U 1 1 5ABD0DA1
+P 6000 1750
+F 0 "C4" H 6025 1850 50  0000 L CNN
+F 1 "100pF" V 6150 1650 50  0000 L CNN
+F 2 "alex-library:C-P_5.08-L_7.5-H_6-P_2.5" H 6038 1600 50  0001 C CNN
+F 3 "" H 6000 1750 50  0001 C CNN
+	1    6000 1750
+	0    -1   -1   0   
+$EndComp
+$Comp
+L C C5
+U 1 1 5ABD0DCB
+P 6250 2050
+F 0 "C5" H 6275 2150 50  0000 L CNN
+F 1 "1000pF" H 6275 1950 50  0000 L CNN
+F 2 "alex-library:C-P_5.08-L_7.5-H_6-P_2.5" H 6288 1900 50  0001 C CNN
+F 3 "" H 6250 2050 50  0001 C CNN
+	1    6250 2050
+	1    0    0    -1  
+$EndComp
+$Comp
+L Self L3
+U 1 1 5ABD0DF8
+P 6550 1750
+F 0 "L3" V 6650 1750 60  0000 C CNN
+F 1 "Self 6µH" V 6450 1750 60  0000 C CNN
+F 2 "alex-library:Self_T30-6" H 6550 1750 60  0001 C CNN
+F 3 "" H 6550 1750 60  0001 C CNN
+	1    6550 1750
+	0    1    1    0   
+$EndComp
+$Comp
+L C C6
+U 1 1 5ABD0EEA
+P 7100 1750
+F 0 "C6" H 7125 1850 50  0000 L CNN
+F 1 "100pF" V 7250 1650 50  0000 L CNN
+F 2 "alex-library:C-P_5.08-L_7.5-H_6-P_2.5" H 7138 1600 50  0001 C CNN
+F 3 "" H 7100 1750 50  0001 C CNN
+	1    7100 1750
+	0    -1   -1   0   
+$EndComp
+$Comp
+L C C7
+U 1 1 5ABD0F1F
+P 7350 2000
+F 0 "C7" H 7375 2100 50  0000 L CNN
+F 1 "470pF" H 7375 1900 50  0000 L CNN
+F 2 "alex-library:C-P_5.08-L_7.5-H_6-P_2.5" H 7388 1850 50  0001 C CNN
+F 3 "" H 7350 2000 50  0001 C CNN
+	1    7350 2000
+	1    0    0    -1  
+$EndComp
+$Comp
+L Conn_01x02 J1
+U 1 1 5ABD0F5B
+P 3350 1750
+F 0 "J1" H 3350 1850 50  0000 C CNN
+F 1 "Conn_01x02" H 3350 1550 50  0000 C CNN
+F 2 "alex-library:Connect-2pin" H 3350 1750 50  0001 C CNN
+F 3 "" H 3350 1750 50  0001 C CNN
+	1    3350 1750
+	-1   0    0    -1  
+$EndComp
+$Comp
+L Conn_01x02 J2
+U 1 1 5ABD0FA1
+P 7950 1750
+F 0 "J2" H 7950 1850 50  0000 C CNN
+F 1 "Conn_01x02" H 7950 1550 50  0000 C CNN
+F 2 "alex-library:Connect-2pin" H 7950 1750 50  0001 C CNN
+F 3 "" H 7950 1750 50  0001 C CNN
+	1    7950 1750
+	1    0    0    -1  
+$EndComp
+$Comp
+L GND #PWR01
+U 1 1 5ABD134B
+P 3650 2000
+F 0 "#PWR01" H 3650 1750 50  0001 C CNN
+F 1 "GND" H 3650 1850 50  0000 C CNN
+F 2 "" H 3650 2000 50  0001 C CNN
+F 3 "" H 3650 2000 50  0001 C CNN
+	1    3650 2000
+	1    0    0    -1  
+$EndComp
+$Comp
+L GND #PWR02
+U 1 1 5ABD1381
+P 3950 2350
+F 0 "#PWR02" H 3950 2100 50  0001 C CNN
+F 1 "GND" H 3950 2200 50  0000 C CNN
+F 2 "" H 3950 2350 50  0001 C CNN
+F 3 "" H 3950 2350 50  0001 C CNN
+	1    3950 2350
+	1    0    0    -1  
+$EndComp
+$Comp
+L GND #PWR03
+U 1 1 5ABD13B0
+P 5100 2350
+F 0 "#PWR03" H 5100 2100 50  0001 C CNN
+F 1 "GND" H 5100 2200 50  0000 C CNN
+F 2 "" H 5100 2350 50  0001 C CNN
+F 3 "" H 5100 2350 50  0001 C CNN
+	1    5100 2350
+	1    0    0    -1  
+$EndComp
+$Comp
+L GND #PWR04
+U 1 1 5ABD13DF
+P 6250 2350
+F 0 "#PWR04" H 6250 2100 50  0001 C CNN
+F 1 "GND" H 6250 2200 50  0000 C CNN
+F 2 "" H 6250 2350 50  0001 C CNN
+F 3 "" H 6250 2350 50  0001 C CNN
+	1    6250 2350
+	1    0    0    -1  
+$EndComp
+$Comp
+L GND #PWR05
+U 1 1 5ABD1522
+P 7350 2350
+F 0 "#PWR05" H 7350 2100 50  0001 C CNN
+F 1 "GND" H 7350 2200 50  0000 C CNN
+F 2 "" H 7350 2350 50  0001 C CNN
+F 3 "" H 7350 2350 50  0001 C CNN
+	1    7350 2350
+	1    0    0    -1  
+$EndComp
+$Comp
+L GND #PWR06
+U 1 1 5ABD157F
+P 7700 2000
+F 0 "#PWR06" H 7700 1750 50  0001 C CNN
+F 1 "GND" H 7700 1850 50  0000 C CNN
+F 2 "" H 7700 2000 50  0001 C CNN
+F 3 "" H 7700 2000 50  0001 C CNN
+	1    7700 2000
+	1    0    0    -1  
+$EndComp
+Wire Wire Line
+	3550 1750 4050 1750
+Wire Wire Line
+	3950 1750 3950 1900
+Connection ~ 3950 1750
+Wire Wire Line
+	3550 1850 3650 1850
+Wire Wire Line
+	3650 1850 3650 2000
+Wire Wire Line
+	3950 2200 3950 2350
+Wire Wire Line
+	4500 1750 4650 1750
+Wire Wire Line
+	4950 1750 5250 1750
+Wire Wire Line
+	5100 1750 5100 1900
+Connection ~ 5100 1750
+Wire Wire Line
+	5100 2200 5100 2350
+Wire Wire Line
+	6250 2200 6250 2350
+Wire Wire Line
+	5700 1750 5850 1750
+Wire Wire Line
+	6150 1750 6350 1750
+Wire Wire Line
+	6250 1750 6250 1900
+Connection ~ 6250 1750
+Wire Wire Line
+	6800 1750 6950 1750
+Wire Wire Line
+	7250 1750 7750 1750
+Wire Wire Line
+	7350 1750 7350 1850
+Connection ~ 7350 1750
+Wire Wire Line
+	7350 2150 7350 2350
+Wire Wire Line
+	7750 1850 7700 1850
+Wire Wire Line
+	7700 1850 7700 2000
+Text Notes 2550 1800 0    60   ~ 0
+Vers Module 0
+Text Notes 2550 1900 0    60   ~ 0
+GND
+Text Notes 8100 1850 0    60   ~ 0
+Vers Module 2_1\nGND
+$Comp
+L M3-Hole H1
+U 1 1 5ABD27B5
+P 9450 3300
+F 0 "H1" H 9450 3150 60  0001 C CNN
+F 1 "M3-Hole" H 9500 3450 60  0001 C CNN
+F 2 "alex-library:M3-Hole" H 9500 3350 60  0001 C CNN
+F 3 "" H 9450 3300 60  0001 C CNN
+	1    9450 3300
+	1    0    0    -1  
+$EndComp
+$Comp
+L M3-Hole H2
+U 1 1 5ABD2803
+P 9700 3300
+F 0 "H2" H 9700 3150 60  0001 C CNN
+F 1 "M3-Hole" H 9750 3450 60  0001 C CNN
+F 2 "alex-library:M3-Hole" H 9750 3350 60  0001 C CNN
+F 3 "" H 9700 3300 60  0001 C CNN
+	1    9700 3300
+	1    0    0    -1  
+$EndComp
+$Comp
+L M3-Hole H3
+U 1 1 5ABD2832
+P 9950 3300
+F 0 "H3" H 9950 3150 60  0001 C CNN
+F 1 "M3-Hole" H 10000 3450 60  0001 C CNN
+F 2 "alex-library:M3-Hole" H 10000 3350 60  0001 C CNN
+F 3 "" H 9950 3300 60  0001 C CNN
+	1    9950 3300
+	1    0    0    -1  
+$EndComp
+$Comp
+L M3-Hole H4
+U 1 1 5ABD2861
+P 10200 3300
+F 0 "H4" H 10200 3150 60  0001 C CNN
+F 1 "M3-Hole" H 10250 3450 60  0001 C CNN
+F 2 "alex-library:M3-Hole" H 10250 3350 60  0001 C CNN
+F 3 "" H 10200 3300 60  0001 C CNN
+	1    10200 3300
+	1    0    0    -1  
+$EndComp
+$Comp
+L GND #PWR07
+U 1 1 5ABD2890
+P 9450 3500
+F 0 "#PWR07" H 9450 3250 50  0001 C CNN
+F 1 "GND" H 9450 3350 50  0000 C CNN
+F 2 "" H 9450 3500 50  0001 C CNN
+F 3 "" H 9450 3500 50  0001 C CNN
+	1    9450 3500
+	1    0    0    -1  
+$EndComp
+$Comp
+L GND #PWR08
+U 1 1 5ABD28BF
+P 9700 3500
+F 0 "#PWR08" H 9700 3250 50  0001 C CNN
+F 1 "GND" H 9700 3350 50  0000 C CNN
+F 2 "" H 9700 3500 50  0001 C CNN
+F 3 "" H 9700 3500 50  0001 C CNN
+	1    9700 3500
+	1    0    0    -1  
+$EndComp
+$Comp
+L GND #PWR09
+U 1 1 5ABD28EE
+P 9950 3500
+F 0 "#PWR09" H 9950 3250 50  0001 C CNN
+F 1 "GND" H 9950 3350 50  0000 C CNN
+F 2 "" H 9950 3500 50  0001 C CNN
+F 3 "" H 9950 3500 50  0001 C CNN
+	1    9950 3500
+	1    0    0    -1  
+$EndComp
+$Comp
+L GND #PWR010
+U 1 1 5ABD291D
+P 10200 3500
+F 0 "#PWR010" H 10200 3250 50  0001 C CNN
+F 1 "GND" H 10200 3350 50  0000 C CNN
+F 2 "" H 10200 3500 50  0001 C CNN
+F 3 "" H 10200 3500 50  0001 C CNN
+	1    10200 3500
+	1    0    0    -1  
+$EndComp
+Wire Wire Line
+	10200 3300 10200 3500
+Wire Wire Line
+	9950 3300 9950 3500
+Wire Wire Line
+	9700 3300 9700 3500
+Wire Wire Line
+	9450 3300 9450 3500
+Wire Notes Line
+	9300 3000 10350 3000
+Wire Notes Line
+	10350 3000 10350 3750
+Wire Notes Line
+	10350 3750 9300 3750
+Wire Notes Line
+	9300 3750 9300 3000
+Text Notes 9400 3100 0    60   ~ 0
+Trous de fixations
+$EndSCHEMATC

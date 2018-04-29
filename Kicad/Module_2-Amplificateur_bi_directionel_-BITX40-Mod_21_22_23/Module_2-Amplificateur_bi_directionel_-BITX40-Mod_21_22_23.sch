@@ -1,0 +1,755 @@
+EESchema Schematic File Version 2
+LIBS:power
+LIBS:device
+LIBS:switches
+LIBS:relays
+LIBS:motors
+LIBS:transistors
+LIBS:conn
+LIBS:linear
+LIBS:regul
+LIBS:74xx
+LIBS:cmos4000
+LIBS:adc-dac
+LIBS:memory
+LIBS:xilinx
+LIBS:microcontrollers
+LIBS:dsp
+LIBS:microchip
+LIBS:analog_switches
+LIBS:motorola
+LIBS:texas
+LIBS:intel
+LIBS:audio
+LIBS:interface
+LIBS:digital-audio
+LIBS:philips
+LIBS:display
+LIBS:cypress
+LIBS:siliconi
+LIBS:opto
+LIBS:atmel
+LIBS:contrib
+LIBS:valves
+LIBS:alex-library
+EELAYER 25 0
+EELAYER END
+$Descr A4 11693 8268
+encoding utf-8
+Sheet 1 1
+Title ""
+Date ""
+Rev ""
+Comp ""
+Comment1 ""
+Comment2 ""
+Comment3 ""
+Comment4 ""
+$EndDescr
+$Comp
+L Conn_01x03 J1
+U 1 1 5AE5A564
+P 1600 1300
+F 0 "J1" H 1600 1500 50  0000 C CNN
+F 1 "Conn_01x03" H 1600 1100 50  0000 C CNN
+F 2 "alex-library:Connect-3pin" H 1600 1300 50  0001 C CNN
+F 3 "" H 1600 1300 50  0001 C CNN
+	1    1600 1300
+	-1   0    0    -1  
+$EndComp
+Text Notes 1250 1450 0    60   ~ 0
+TX\nRX\nGND
+Text Notes 1250 1050 0    60   ~ 0
+Vers mod 0
+$Comp
+L GND #PWR01
+U 1 1 5AE5A603
+P 1950 1500
+F 0 "#PWR01" H 1950 1250 50  0001 C CNN
+F 1 "GND" H 1950 1350 50  0000 C CNN
+F 2 "" H 1950 1500 50  0001 C CNN
+F 3 "" H 1950 1500 50  0001 C CNN
+	1    1950 1500
+	1    0    0    -1  
+$EndComp
+Wire Wire Line
+	1800 1400 1950 1400
+Wire Wire Line
+	1950 1400 1950 1500
+Text GLabel 2100 1150 2    60   Input ~ 0
+TX
+Text GLabel 2100 1300 2    60   Input ~ 0
+RX
+Wire Wire Line
+	1800 1300 2100 1300
+Wire Wire Line
+	1800 1200 2000 1200
+Wire Wire Line
+	2000 1200 2000 1150
+Wire Wire Line
+	2000 1150 2100 1150
+Wire Notes Line
+	1200 900  2400 900 
+Wire Notes Line
+	2400 900  2400 1800
+Wire Notes Line
+	2400 1800 1200 1800
+Wire Notes Line
+	1200 1800 1200 900 
+$Comp
+L R R1
+U 1 1 5AE5A66A
+P 3650 1300
+F 0 "R1" V 3730 1300 50  0000 C CNN
+F 1 "10" V 3650 1300 50  0000 C CNN
+F 2 "alex-library:R_Axial_Long6.3mm_Dia2.5mm_Pas15.24mm_Horizontal" V 3580 1300 50  0001 C CNN
+F 3 "" H 3650 1300 50  0001 C CNN
+	1    3650 1300
+	0    -1   -1   0   
+$EndComp
+$Comp
+L R R5
+U 1 1 5AE5A6B4
+P 4250 1300
+F 0 "R5" V 4330 1300 50  0000 C CNN
+F 1 "220" V 4250 1300 50  0000 C CNN
+F 2 "alex-library:R_Axial_Long6.3mm_Dia2.5mm_Pas15.24mm_Horizontal" V 4180 1300 50  0001 C CNN
+F 3 "" H 4250 1300 50  0001 C CNN
+	1    4250 1300
+	0    -1   -1   0   
+$EndComp
+$Comp
+L C C3
+U 1 1 5AE5A6E2
+P 3950 1650
+F 0 "C3" H 3975 1750 50  0000 L CNN
+F 1 "100nF" H 3975 1550 50  0000 L CNN
+F 2 "alex-library:C-P_5.08-L_7.5-H_6-P_2.5" H 3988 1500 50  0001 C CNN
+F 3 "" H 3950 1650 50  0001 C CNN
+	1    3950 1650
+	1    0    0    -1  
+$EndComp
+$Comp
+L D D1
+U 1 1 5AE5A7AC
+P 4600 1650
+F 0 "D1" H 4600 1750 50  0000 C CNN
+F 1 "1N4148" H 4600 1550 50  0000 C CNN
+F 2 "alex-library:D_DO-35_SOD27_P12.70mm_Horizontal" H 4600 1650 50  0001 C CNN
+F 3 "" H 4600 1650 50  0001 C CNN
+	1    4600 1650
+	0    -1   -1   0   
+$EndComp
+Wire Wire Line
+	3250 1300 3500 1300
+Text GLabel 3250 1300 0    60   Input ~ 0
+RX
+Wire Wire Line
+	3800 1300 4100 1300
+Wire Wire Line
+	3950 1300 3950 1500
+Connection ~ 3950 1300
+Wire Wire Line
+	4400 1300 4600 1300
+Wire Wire Line
+	4600 1300 4600 1500
+$Comp
+L GND #PWR02
+U 1 1 5AE5A934
+P 3950 1950
+F 0 "#PWR02" H 3950 1700 50  0001 C CNN
+F 1 "GND" H 3950 1800 50  0000 C CNN
+F 2 "" H 3950 1950 50  0001 C CNN
+F 3 "" H 3950 1950 50  0001 C CNN
+	1    3950 1950
+	1    0    0    -1  
+$EndComp
+Wire Wire Line
+	3950 1800 3950 1950
+$Comp
+L Q_NPN_BCE Q1
+U 1 1 5AE5AA5C
+P 4500 2750
+F 0 "Q1" H 4700 2800 50  0000 L CNN
+F 1 "2N2222a" H 4700 2700 50  0000 L CNN
+F 2 "alex-library:TO-18-3" H 4700 2850 50  0001 C CNN
+F 3 "" H 4500 2750 50  0001 C CNN
+	1    4500 2750
+	1    0    0    -1  
+$EndComp
+$Comp
+L R R6
+U 1 1 5AE5AAA5
+P 4250 2350
+F 0 "R6" V 4330 2350 50  0000 C CNN
+F 1 "2,2K" V 4250 2350 50  0000 C CNN
+F 2 "alex-library:R_Axial_Long6.3mm_Dia2.5mm_Pas15.24mm_Horizontal" V 4180 2350 50  0001 C CNN
+F 3 "" H 4250 2350 50  0001 C CNN
+	1    4250 2350
+	0    -1   -1   0   
+$EndComp
+$Comp
+L C C7
+U 1 1 5AE5AC69
+P 5150 2200
+F 0 "C7" H 5175 2300 50  0000 L CNN
+F 1 "100nF" H 5175 2100 50  0000 L CNN
+F 2 "alex-library:C-P_5.08-L_7.5-H_6-P_2.5" H 5188 2050 50  0001 C CNN
+F 3 "" H 5150 2200 50  0001 C CNN
+	1    5150 2200
+	0    1    1    0   
+$EndComp
+Wire Wire Line
+	4600 1800 4600 2550
+Wire Wire Line
+	4400 2350 4600 2350
+Connection ~ 4600 2350
+Wire Wire Line
+	5000 2200 4600 2200
+Connection ~ 4600 2200
+$Comp
+L C C6
+U 1 1 5AE5AEF1
+P 4900 3050
+F 0 "C6" H 4925 3150 50  0000 L CNN
+F 1 "100nF" H 4925 2950 50  0000 L CNN
+F 2 "alex-library:C-P_5.08-L_7.5-H_6-P_2.5" H 4938 2900 50  0001 C CNN
+F 3 "" H 4900 3050 50  0001 C CNN
+	1    4900 3050
+	0    1    1    0   
+$EndComp
+$Comp
+L C C1
+U 1 1 5AE5AF76
+P 3700 2350
+F 0 "C1" H 3725 2450 50  0000 L CNN
+F 1 "100nF" H 3725 2250 50  0000 L CNN
+F 2 "alex-library:C-P_5.08-L_7.5-H_6-P_2.5" H 3738 2200 50  0001 C CNN
+F 3 "" H 3700 2350 50  0001 C CNN
+	1    3700 2350
+	0    1    1    0   
+$EndComp
+$Comp
+L R R3
+U 1 1 5AE5AFE2
+P 4000 3300
+F 0 "R3" V 4080 3300 50  0000 C CNN
+F 1 "1K" V 4000 3300 50  0000 C CNN
+F 2 "alex-library:R_Axial_Long6.3mm_Dia2.5mm_Pas15.24mm_Horizontal" V 3930 3300 50  0001 C CNN
+F 3 "" H 4000 3300 50  0001 C CNN
+	1    4000 3300
+	1    0    0    -1  
+$EndComp
+$Comp
+L GND #PWR03
+U 1 1 5AE5B021
+P 4000 3600
+F 0 "#PWR03" H 4000 3350 50  0001 C CNN
+F 1 "GND" H 4000 3450 50  0000 C CNN
+F 2 "" H 4000 3600 50  0001 C CNN
+F 3 "" H 4000 3600 50  0001 C CNN
+	1    4000 3600
+	1    0    0    -1  
+$EndComp
+$Comp
+L R R8
+U 1 1 5AE5B0AD
+P 4600 3300
+F 0 "R8" V 4680 3300 50  0000 C CNN
+F 1 "100" V 4600 3300 50  0000 C CNN
+F 2 "alex-library:R_Axial_Long6.3mm_Dia2.5mm_Pas15.24mm_Horizontal" V 4530 3300 50  0001 C CNN
+F 3 "" H 4600 3300 50  0001 C CNN
+	1    4600 3300
+	1    0    0    -1  
+$EndComp
+$Comp
+L GND #PWR04
+U 1 1 5AE5B331
+P 4600 3600
+F 0 "#PWR04" H 4600 3350 50  0001 C CNN
+F 1 "GND" H 4600 3450 50  0000 C CNN
+F 2 "" H 4600 3600 50  0001 C CNN
+F 3 "" H 4600 3600 50  0001 C CNN
+	1    4600 3600
+	1    0    0    -1  
+$EndComp
+$Comp
+L R R11
+U 1 1 5AE5B408
+P 5150 3300
+F 0 "R11" V 5230 3300 50  0000 C CNN
+F 1 "10" V 5150 3300 50  0000 C CNN
+F 2 "alex-library:R_Axial_Long6.3mm_Dia2.5mm_Pas15.24mm_Horizontal" V 5080 3300 50  0001 C CNN
+F 3 "" H 5150 3300 50  0001 C CNN
+	1    5150 3300
+	1    0    0    -1  
+$EndComp
+$Comp
+L GND #PWR05
+U 1 1 5AE5B712
+P 5150 3600
+F 0 "#PWR05" H 5150 3350 50  0001 C CNN
+F 1 "GND" H 5150 3450 50  0000 C CNN
+F 2 "" H 5150 3600 50  0001 C CNN
+F 3 "" H 5150 3600 50  0001 C CNN
+	1    5150 3600
+	1    0    0    -1  
+$EndComp
+Wire Wire Line
+	5150 3450 5150 3600
+Wire Wire Line
+	4600 3450 4600 3600
+Wire Wire Line
+	4000 3450 4000 3600
+Wire Wire Line
+	4000 2350 4000 3150
+Wire Wire Line
+	4000 2750 4300 2750
+Wire Wire Line
+	3850 2350 4100 2350
+Connection ~ 4000 2750
+Connection ~ 4000 2350
+Wire Wire Line
+	4600 2950 4600 3150
+Wire Wire Line
+	4600 3050 4750 3050
+Wire Wire Line
+	5050 3050 5150 3050
+Wire Wire Line
+	5150 3050 5150 3150
+Connection ~ 4600 3050
+$Comp
+L R R2
+U 1 1 5AE5C47D
+P 3650 4850
+F 0 "R2" V 3730 4850 50  0000 C CNN
+F 1 "10" V 3650 4850 50  0000 C CNN
+F 2 "alex-library:R_Axial_Long6.3mm_Dia2.5mm_Pas15.24mm_Horizontal" V 3580 4850 50  0001 C CNN
+F 3 "" H 3650 4850 50  0001 C CNN
+	1    3650 4850
+	0    -1   -1   0   
+$EndComp
+$Comp
+L R R7
+U 1 1 5AE5C483
+P 4250 4850
+F 0 "R7" V 4330 4850 50  0000 C CNN
+F 1 "220" V 4250 4850 50  0000 C CNN
+F 2 "alex-library:R_Axial_Long6.3mm_Dia2.5mm_Pas15.24mm_Horizontal" V 4180 4850 50  0001 C CNN
+F 3 "" H 4250 4850 50  0001 C CNN
+	1    4250 4850
+	0    -1   -1   0   
+$EndComp
+$Comp
+L C C4
+U 1 1 5AE5C489
+P 3950 5200
+F 0 "C4" H 3975 5300 50  0000 L CNN
+F 1 "100nF" H 3975 5100 50  0000 L CNN
+F 2 "alex-library:C-P_5.08-L_7.5-H_6-P_2.5" H 3988 5050 50  0001 C CNN
+F 3 "" H 3950 5200 50  0001 C CNN
+	1    3950 5200
+	1    0    0    -1  
+$EndComp
+$Comp
+L D D2
+U 1 1 5AE5C48F
+P 4600 5200
+F 0 "D2" H 4600 5300 50  0000 C CNN
+F 1 "1N4148" H 4600 5100 50  0000 C CNN
+F 2 "alex-library:D_DO-35_SOD27_P12.70mm_Horizontal" H 4600 5200 50  0001 C CNN
+F 3 "" H 4600 5200 50  0001 C CNN
+	1    4600 5200
+	0    -1   -1   0   
+$EndComp
+Wire Wire Line
+	3250 4850 3500 4850
+Text GLabel 3250 4850 0    60   Input ~ 0
+TX
+Wire Wire Line
+	3800 4850 4100 4850
+Wire Wire Line
+	3950 4850 3950 5050
+Connection ~ 3950 4850
+Wire Wire Line
+	4400 4850 4600 4850
+Wire Wire Line
+	4600 4850 4600 5050
+$Comp
+L GND #PWR06
+U 1 1 5AE5C49C
+P 3950 5500
+F 0 "#PWR06" H 3950 5250 50  0001 C CNN
+F 1 "GND" H 3950 5350 50  0000 C CNN
+F 2 "" H 3950 5500 50  0001 C CNN
+F 3 "" H 3950 5500 50  0001 C CNN
+	1    3950 5500
+	1    0    0    -1  
+$EndComp
+Wire Wire Line
+	3950 5350 3950 5500
+$Comp
+L Q_NPN_BCE Q2
+U 1 1 5AE5C4A3
+P 4700 6250
+F 0 "Q2" H 4900 6300 50  0000 L CNN
+F 1 "2N2222a" H 4900 6200 50  0000 L CNN
+F 2 "alex-library:TO-18-3" H 4900 6350 50  0001 C CNN
+F 3 "" H 4700 6250 50  0001 C CNN
+	1    4700 6250
+	-1   0    0    -1  
+$EndComp
+$Comp
+L R R10
+U 1 1 5AE5C4A9
+P 4900 5850
+F 0 "R10" V 4980 5850 50  0000 C CNN
+F 1 "2,2K" V 4900 5850 50  0000 C CNN
+F 2 "alex-library:R_Axial_Long6.3mm_Dia2.5mm_Pas15.24mm_Horizontal" V 4830 5850 50  0001 C CNN
+F 3 "" H 4900 5850 50  0001 C CNN
+	1    4900 5850
+	0    -1   -1   0   
+$EndComp
+$Comp
+L C C8
+U 1 1 5AE5C4AF
+P 5650 5850
+F 0 "C8" H 5675 5950 50  0000 L CNN
+F 1 "100nF" H 5675 5750 50  0000 L CNN
+F 2 "alex-library:C-P_5.08-L_7.5-H_6-P_2.5" H 5688 5700 50  0001 C CNN
+F 3 "" H 5650 5850 50  0001 C CNN
+	1    5650 5850
+	0    1    1    0   
+$EndComp
+$Comp
+L C C5
+U 1 1 5AE5C4BA
+P 4350 6550
+F 0 "C5" H 4375 6650 50  0000 L CNN
+F 1 "100nF" H 4375 6450 50  0000 L CNN
+F 2 "alex-library:C-P_5.08-L_7.5-H_6-P_2.5" H 4388 6400 50  0001 C CNN
+F 3 "" H 4350 6550 50  0001 C CNN
+	1    4350 6550
+	0    1    1    0   
+$EndComp
+$Comp
+L C C2
+U 1 1 5AE5C4C0
+P 3700 5900
+F 0 "C2" H 3725 6000 50  0000 L CNN
+F 1 "100nF" H 3725 5800 50  0000 L CNN
+F 2 "alex-library:C-P_5.08-L_7.5-H_6-P_2.5" H 3738 5750 50  0001 C CNN
+F 3 "" H 3700 5900 50  0001 C CNN
+	1    3700 5900
+	0    1    1    0   
+$EndComp
+$Comp
+L R R12
+U 1 1 5AE5C4C6
+P 5200 6850
+F 0 "R12" V 5280 6850 50  0000 C CNN
+F 1 "1K" V 5200 6850 50  0000 C CNN
+F 2 "alex-library:R_Axial_Long6.3mm_Dia2.5mm_Pas15.24mm_Horizontal" V 5130 6850 50  0001 C CNN
+F 3 "" H 5200 6850 50  0001 C CNN
+	1    5200 6850
+	1    0    0    -1  
+$EndComp
+$Comp
+L GND #PWR07
+U 1 1 5AE5C4CC
+P 5200 7150
+F 0 "#PWR07" H 5200 6900 50  0001 C CNN
+F 1 "GND" H 5200 7000 50  0000 C CNN
+F 2 "" H 5200 7150 50  0001 C CNN
+F 3 "" H 5200 7150 50  0001 C CNN
+	1    5200 7150
+	1    0    0    -1  
+$EndComp
+$Comp
+L R R9
+U 1 1 5AE5C4D2
+P 4600 6850
+F 0 "R9" V 4680 6850 50  0000 C CNN
+F 1 "100" V 4600 6850 50  0000 C CNN
+F 2 "alex-library:R_Axial_Long6.3mm_Dia2.5mm_Pas15.24mm_Horizontal" V 4530 6850 50  0001 C CNN
+F 3 "" H 4600 6850 50  0001 C CNN
+	1    4600 6850
+	1    0    0    -1  
+$EndComp
+$Comp
+L GND #PWR08
+U 1 1 5AE5C4D8
+P 4600 7150
+F 0 "#PWR08" H 4600 6900 50  0001 C CNN
+F 1 "GND" H 4600 7000 50  0000 C CNN
+F 2 "" H 4600 7150 50  0001 C CNN
+F 3 "" H 4600 7150 50  0001 C CNN
+	1    4600 7150
+	1    0    0    -1  
+$EndComp
+$Comp
+L R R4
+U 1 1 5AE5C4DE
+P 4000 6850
+F 0 "R4" V 4080 6850 50  0000 C CNN
+F 1 "10" V 4000 6850 50  0000 C CNN
+F 2 "alex-library:R_Axial_Long6.3mm_Dia2.5mm_Pas15.24mm_Horizontal" V 3930 6850 50  0001 C CNN
+F 3 "" H 4000 6850 50  0001 C CNN
+	1    4000 6850
+	1    0    0    -1  
+$EndComp
+$Comp
+L GND #PWR09
+U 1 1 5AE5C4E4
+P 4000 7150
+F 0 "#PWR09" H 4000 6900 50  0001 C CNN
+F 1 "GND" H 4000 7000 50  0000 C CNN
+F 2 "" H 4000 7150 50  0001 C CNN
+F 3 "" H 4000 7150 50  0001 C CNN
+	1    4000 7150
+	1    0    0    -1  
+$EndComp
+Wire Wire Line
+	4000 7000 4000 7150
+Wire Wire Line
+	4600 7000 4600 7150
+Wire Wire Line
+	5200 7000 5200 7150
+Wire Wire Line
+	4600 5350 4600 6050
+Wire Wire Line
+	4600 5850 4750 5850
+Connection ~ 4600 5850
+Wire Wire Line
+	5050 5850 5500 5850
+Wire Wire Line
+	5200 5850 5200 6700
+Wire Wire Line
+	5200 6250 4900 6250
+Connection ~ 5200 6250
+Wire Wire Line
+	4600 6450 4600 6700
+Wire Wire Line
+	4500 6550 4600 6550
+Connection ~ 4600 6550
+Wire Wire Line
+	4200 6550 4000 6550
+Wire Wire Line
+	4000 6550 4000 6700
+Wire Wire Line
+	3850 5900 4600 5900
+Connection ~ 4600 5900
+Connection ~ 5200 5850
+Wire Wire Line
+	3550 2350 3200 2350
+Text GLabel 3200 2350 0    60   Input ~ 0
+HF_1
+Text GLabel 3200 5900 0    60   Input ~ 0
+HF_1
+Wire Wire Line
+	3200 5900 3550 5900
+Text GLabel 6150 5850 2    60   Input ~ 0
+HF_2
+Wire Wire Line
+	5800 5850 6150 5850
+Text GLabel 5700 2200 2    60   Input ~ 0
+HF_2
+Wire Wire Line
+	5300 2200 5700 2200
+$Comp
+L Conn_01x02 J3
+U 1 1 5AE60B97
+P 8250 1250
+F 0 "J3" H 8250 1350 50  0000 C CNN
+F 1 "Conn_01x02" H 8250 1050 50  0000 C CNN
+F 2 "alex-library:Connect-2pin" H 8250 1250 50  0001 C CNN
+F 3 "" H 8250 1250 50  0001 C CNN
+	1    8250 1250
+	1    0    0    -1  
+$EndComp
+$Comp
+L Conn_01x02 J2
+U 1 1 5AE60C1E
+P 6600 1250
+F 0 "J2" H 6600 1350 50  0000 C CNN
+F 1 "Conn_01x02" H 6600 1050 50  0000 C CNN
+F 2 "alex-library:Connect-2pin" H 6600 1250 50  0001 C CNN
+F 3 "" H 6600 1250 50  0001 C CNN
+	1    6600 1250
+	-1   0    0    -1  
+$EndComp
+$Comp
+L GND #PWR010
+U 1 1 5AE60ECF
+P 6950 1450
+F 0 "#PWR010" H 6950 1200 50  0001 C CNN
+F 1 "GND" H 6950 1300 50  0000 C CNN
+F 2 "" H 6950 1450 50  0001 C CNN
+F 3 "" H 6950 1450 50  0001 C CNN
+	1    6950 1450
+	1    0    0    -1  
+$EndComp
+$Comp
+L GND #PWR011
+U 1 1 5AE6101E
+P 7900 1450
+F 0 "#PWR011" H 7900 1200 50  0001 C CNN
+F 1 "GND" H 7900 1300 50  0000 C CNN
+F 2 "" H 7900 1450 50  0001 C CNN
+F 3 "" H 7900 1450 50  0001 C CNN
+	1    7900 1450
+	1    0    0    -1  
+$EndComp
+Wire Wire Line
+	6800 1350 6950 1350
+Wire Wire Line
+	6950 1350 6950 1450
+Wire Wire Line
+	8050 1350 7900 1350
+Wire Wire Line
+	7900 1350 7900 1450
+Text GLabel 7000 1250 2    60   Input ~ 0
+HF_1
+Text GLabel 7800 1250 0    60   Input ~ 0
+HF_2
+Wire Wire Line
+	7800 1250 8050 1250
+Wire Wire Line
+	6800 1250 7000 1250
+Text Notes 7150 1000 0    60   ~ 0
+Partie HF
+Wire Notes Line
+	6300 900  8600 900 
+Wire Notes Line
+	8600 900  8600 1750
+Wire Notes Line
+	8600 1750 6300 1750
+Wire Notes Line
+	6300 1750 6300 900 
+Text Notes 3850 1050 0    60   ~ 0
+Ampli RX
+Text Notes 4000 4650 0    60   ~ 0
+Ampli TX
+Wire Notes Line
+	2850 900  6050 900 
+Wire Notes Line
+	6050 900  6050 3900
+Wire Notes Line
+	6050 3900 2850 3900
+Wire Notes Line
+	2850 3900 2850 900 
+Wire Notes Line
+	2850 4500 6500 4500
+Wire Notes Line
+	6500 4500 6500 7400
+Wire Notes Line
+	6500 7400 2850 7400
+Wire Notes Line
+	2850 7400 2850 4500
+$Comp
+L M3-Hole H1
+U 1 1 5AE68F24
+P 9050 1250
+F 0 "H1" H 9050 1100 60  0001 C CNN
+F 1 "M3-Hole" H 9100 1400 60  0001 C CNN
+F 2 "alex-library:M3-Hole" H 9100 1300 60  0001 C CNN
+F 3 "" H 9050 1250 60  0001 C CNN
+	1    9050 1250
+	1    0    0    -1  
+$EndComp
+$Comp
+L M3-Hole H2
+U 1 1 5AE68F87
+P 9350 1250
+F 0 "H2" H 9350 1100 60  0001 C CNN
+F 1 "M3-Hole" H 9400 1400 60  0001 C CNN
+F 2 "alex-library:M3-Hole" H 9400 1300 60  0001 C CNN
+F 3 "" H 9350 1250 60  0001 C CNN
+	1    9350 1250
+	1    0    0    -1  
+$EndComp
+$Comp
+L M3-Hole H3
+U 1 1 5AE68FE3
+P 9650 1250
+F 0 "H3" H 9650 1100 60  0001 C CNN
+F 1 "M3-Hole" H 9700 1400 60  0001 C CNN
+F 2 "alex-library:M3-Hole" H 9700 1300 60  0001 C CNN
+F 3 "" H 9650 1250 60  0001 C CNN
+	1    9650 1250
+	1    0    0    -1  
+$EndComp
+$Comp
+L M3-Hole H4
+U 1 1 5AE6903F
+P 9950 1250
+F 0 "H4" H 9950 1100 60  0001 C CNN
+F 1 "M3-Hole" H 10000 1400 60  0001 C CNN
+F 2 "alex-library:M3-Hole" H 10000 1300 60  0001 C CNN
+F 3 "" H 9950 1250 60  0001 C CNN
+	1    9950 1250
+	1    0    0    -1  
+$EndComp
+$Comp
+L GND #PWR012
+U 1 1 5AE69266
+P 9050 1550
+F 0 "#PWR012" H 9050 1300 50  0001 C CNN
+F 1 "GND" H 9050 1400 50  0000 C CNN
+F 2 "" H 9050 1550 50  0001 C CNN
+F 3 "" H 9050 1550 50  0001 C CNN
+	1    9050 1550
+	1    0    0    -1  
+$EndComp
+$Comp
+L GND #PWR013
+U 1 1 5AE693B5
+P 9350 1550
+F 0 "#PWR013" H 9350 1300 50  0001 C CNN
+F 1 "GND" H 9350 1400 50  0000 C CNN
+F 2 "" H 9350 1550 50  0001 C CNN
+F 3 "" H 9350 1550 50  0001 C CNN
+	1    9350 1550
+	1    0    0    -1  
+$EndComp
+$Comp
+L GND #PWR014
+U 1 1 5AE69411
+P 9650 1550
+F 0 "#PWR014" H 9650 1300 50  0001 C CNN
+F 1 "GND" H 9650 1400 50  0000 C CNN
+F 2 "" H 9650 1550 50  0001 C CNN
+F 3 "" H 9650 1550 50  0001 C CNN
+	1    9650 1550
+	1    0    0    -1  
+$EndComp
+$Comp
+L GND #PWR015
+U 1 1 5AE6946D
+P 9950 1550
+F 0 "#PWR015" H 9950 1300 50  0001 C CNN
+F 1 "GND" H 9950 1400 50  0000 C CNN
+F 2 "" H 9950 1550 50  0001 C CNN
+F 3 "" H 9950 1550 50  0001 C CNN
+	1    9950 1550
+	1    0    0    -1  
+$EndComp
+Wire Wire Line
+	9050 1250 9050 1550
+Wire Wire Line
+	9350 1250 9350 1550
+Wire Wire Line
+	9650 1250 9650 1550
+Wire Wire Line
+	9950 1250 9950 1550
+Text Notes 9200 1050 0    60   ~ 0
+Trous fixations
+Wire Notes Line
+	8850 900  10150 900 
+Wire Notes Line
+	10150 900  10150 1850
+Wire Notes Line
+	10150 1850 8850 1850
+Wire Notes Line
+	8850 1850 8850 900 
+$EndSCHEMATC
