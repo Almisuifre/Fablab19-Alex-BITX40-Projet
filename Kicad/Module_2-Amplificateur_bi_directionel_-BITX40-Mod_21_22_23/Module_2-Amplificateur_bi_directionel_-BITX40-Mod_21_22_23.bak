@@ -32,6 +32,7 @@ LIBS:atmel
 LIBS:contrib
 LIBS:valves
 LIBS:alex-library
+LIBS:Module_2-Amplificateur_bi_directionel_-BITX40-Mod_21_22_23-cache
 EELAYER 25 0
 EELAYER END
 $Descr A4 11693 8268
@@ -652,7 +653,7 @@ U 1 1 5AE68F24
 P 9050 1250
 F 0 "H1" H 9050 1100 60  0001 C CNN
 F 1 "M3-Hole" H 9100 1400 60  0001 C CNN
-F 2 "alex-library:M3-Hole" H 9100 1300 60  0001 C CNN
+F 2 "alex-library:M3-Real-Hole" H 9100 1300 60  0001 C CNN
 F 3 "" H 9050 1250 60  0001 C CNN
 	1    9050 1250
 	1    0    0    -1  
@@ -663,7 +664,7 @@ U 1 1 5AE68F87
 P 9350 1250
 F 0 "H2" H 9350 1100 60  0001 C CNN
 F 1 "M3-Hole" H 9400 1400 60  0001 C CNN
-F 2 "alex-library:M3-Hole" H 9400 1300 60  0001 C CNN
+F 2 "alex-library:M3-Real-Hole" H 9400 1300 60  0001 C CNN
 F 3 "" H 9350 1250 60  0001 C CNN
 	1    9350 1250
 	1    0    0    -1  
@@ -674,7 +675,7 @@ U 1 1 5AE68FE3
 P 9650 1250
 F 0 "H3" H 9650 1100 60  0001 C CNN
 F 1 "M3-Hole" H 9700 1400 60  0001 C CNN
-F 2 "alex-library:M3-Hole" H 9700 1300 60  0001 C CNN
+F 2 "alex-library:M3-Real-Hole" H 9700 1300 60  0001 C CNN
 F 3 "" H 9650 1250 60  0001 C CNN
 	1    9650 1250
 	1    0    0    -1  
@@ -685,7 +686,7 @@ U 1 1 5AE6903F
 P 9950 1250
 F 0 "H4" H 9950 1100 60  0001 C CNN
 F 1 "M3-Hole" H 10000 1400 60  0001 C CNN
-F 2 "alex-library:M3-Hole" H 10000 1300 60  0001 C CNN
+F 2 "alex-library:M3-Real-Hole" H 10000 1300 60  0001 C CNN
 F 3 "" H 9950 1250 60  0001 C CNN
 	1    9950 1250
 	1    0    0    -1  
